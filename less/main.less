@@ -1,0 +1,52 @@
+main {
+    padding: 1rem;
+}
+
+.sobremi {
+    padding: 1rem;
+
+    img {
+        width: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+}
+
+table {
+    tr {
+        border-bottom: 1px solid #000;
+
+        &:nth-child(2n) {
+            background-color: #bbb;
+        }
+    }
+
+    td,
+    th {
+        padding: 0.25rem 0.5rem;
+    }
+
+    thead,
+    tfoot {
+        background-color: #000;
+        color: #eee;
+    }
+}
+
+.proyectos {
+    >section {
+        text-align: center;
+        padding: 1rem;
+
+        section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 1rem;
+        }
+
+        &:nth-child(2n) {
+            background-color: beige;
+        }
+    }
+}
